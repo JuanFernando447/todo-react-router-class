@@ -1,6 +1,6 @@
 import Ejemplo from "../pages/ejemplo";
+import JuanFernandoPertuz from "../pages/JuanFernandoPertuz";
 import Home from "../pages/home";
-import Layout from "./Layout";
 
 export const childrenRouterList = [
     {
@@ -12,5 +12,10 @@ export const childrenRouterList = [
         path: "login",
         Component: Ejemplo,
         text: "Ejemplo"
+    },
+    {
+        path:"to-do-list",
+        Component: JuanFernandoPertuz,
+        text: "Juan Fernando Pertuz"
     }
 ]
